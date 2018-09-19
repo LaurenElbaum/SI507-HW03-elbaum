@@ -1,12 +1,5 @@
 import random
 
-def ask_group():
-	n = input("What is your question?")
-	return n
-
-x = ask_group()
-#print(x)
-
 answers = ['It is certain.',
            'It is decidedly so.',
            'Without a doubt.',
@@ -28,4 +21,20 @@ answers = ['It is certain.',
            'Outlook not so good.',
            'Very doubtful.',
            'Signs point to yes.']
-print(random.choice(answers))
+
+def ask_group():
+	n = input("What is your question?")
+	while n != "quit":
+
+		if n.endswith('?'):
+			print(random.choice(answers))
+
+		else:    
+			print("I’m sorry, I can only answer questions.")
+
+		n = input("What is your question?")	
+
+	
+
+x = ask_group()
+#print(x)
