@@ -16,6 +16,7 @@ answers = ['It is certain.',
            'Most likely.',
            'Outlook good.',
            'Yes.',
+<<<<<<< HEAD
            'Signs point to yes.',
            'Reply hazy, try again',
            'Ask again later.',
@@ -27,4 +28,7 @@ answers = ['It is certain.',
            'My sources say no.',
            'Outlook not so good.',
            'Very doubtful.']
+=======
+           'Signs point to yes.']
+>>>>>>> add_questionsB
 print(random.choice(answers))
