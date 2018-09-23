@@ -1,8 +1,8 @@
 import random
 
  answers = ['It is certain.',
-           'It is decidedly so.',
-           'Without a doubt.',
+            'It is decidedly so.',
+            'Without a doubt.',
             'Yes - definitely.',
             'You may rely on it.',
             'As I see it, yes.',
@@ -18,9 +18,9 @@ import random
             'Do not count on it.',
             'My reply is no.',
             'My sources say no.',
-           'Outlook not so good.',
-           'Very doubtful.',
-           'Signs point to yes.']
+            'Outlook not so good.',
+            'Very doubtful.',
+            'Signs point to yes.']
 
 def ask_group():
   n = input("What is your question?")
@@ -33,4 +33,5 @@ def ask_group():
     
     n = input("What is your question?") 
   
- x = ask_group()
+x = ask_group()
+
