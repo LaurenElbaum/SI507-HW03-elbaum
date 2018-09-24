@@ -1,6 +1,6 @@
 import random
 
- answers = ['It is certain.',
+answers = ['It is certain.',
             'It is decidedly so.',
             'Without a doubt.',
             'Yes - definitely.',
